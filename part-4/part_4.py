@@ -126,7 +126,8 @@ def main_menu():
         elif n == 3:
             print('Function not available')
 
-main_menu()
+if __name__ == '__main__':
+    main_menu()
 ### Step 5 - while loops
 
 ## Now add a while loop to your main menu to keep it alive, and continually asking for input until the user chooses to exit the program. Call the main menu to ensure it functions properly.

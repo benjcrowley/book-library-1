@@ -58,7 +58,7 @@ def get_all(book):
     '''pass in a dictionary, and return the title, author, year, rating, and number of pages'''
     return f'This {book["pages"]} page book, titled {book["title"]}, by {book["author"]} in {book["year"]} is rated {book["rating"]}/5'
 
-print(get_all(my_book))
+# print(get_all(my_book))
 
 # Once you are finished with that function, create several more functions which return individual pieces of information from the book.
 
@@ -115,4 +115,4 @@ def best_rated_book(lst):
 
 # print(get_author_set(book_list))
 # print(best_rated_book(book_list))
-print(most_published_author(book_list_2))
+# print(most_published_author(book_list_2))
